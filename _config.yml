@@ -1,0 +1,19 @@
+# Site settings
+name: wyudong
+description: wyudong's blog
+permalink: /:title
+
+# Sass
+sass:
+  style: compressed
+  sass_dir: _sass
+
+# Build settings
+markdown: kramdown
+exclude: [Gemfile, Gemfile.lock, README.md]
+
+# Serve settings
+port: 6280
+
+# Output settings
+timezone: Asia/Shanghai
