@@ -1,10 +1,46 @@
 // Colors
-$color-black: #2b2b2b;
-$color-white: #eff1f5;
-$color-grey: #c0c5ce;
-$color-link: #8fa1b3;
-$color-code: #a3be8c;
-$color-code-background: #4f5b66;
+$base00: #2b2b2b;
+$base01: #343d46;
+$base02: #4f5b66;
+$base03: #65737e;
+$base04: #a7adba;
+$base05: #c0c5ce;
+$base06: #dfe1e8;
+$base07: #eff1f5;
+
+$red:    #bf616a;
+$orange: #d08770;
+$yellow: #ebcb8b;
+$green:  #a3be8c;
+$cyan:   #96b5b4;
+$blue:   #8fa1b3;
+$purple: #b48ead;
+$brown:  #ab7967;
+
+$color-black: $base00;
+$color-white: $base07;
+$color-plain: $base05;
+$color-quote: $base02;
+$color-link: $blue;
+$color-link-hover: $cyan;
+$color-back: $blue;
+$color-back-hover: $purple;
+$color-code: $base07;
+$color-code-background: $base02;
+
+$font-size-default: 1em;
+$font-size-code: 1.1em;
+$font-size-main: 1.2em;
+$font-size-h6: 1.2em;
+$font-size-h5: 1.4em;
+$font-size-h4: 1.6em;
+$font-size-h3: 1.8em;
+$font-size-h2: 2em;
+$font-size-h1: 2.5em;
+$font-size-header: 3.5em;
+
+$line-height-default: 1.4em;
+$line-height-main: 1.6em;
 
 // Breakpoint
-$br: 600px;
+$br: 640px;
