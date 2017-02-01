@@ -1,6 +1,6 @@
 # Site settings
 name: wyudong
-description: wyudong's blog
+description: wyudong's site
 permalink: /:title
 
 # Sass

@@ -70,7 +70,7 @@ blockquote {
     }
 
     ul {
-        margin-top: 10px;
+        margin-top: 60px;
         font-size: $font-size-h5;
 
         li {
@@ -238,7 +238,7 @@ blockquote {
 
 .about {
     &__title {
-        @include heading(2.5em, 700, 30px, 20px);
+        @include heading($font-size-h1, 700, 30px, 20px);
     }
 
     &__content {
