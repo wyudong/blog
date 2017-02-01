@@ -111,8 +111,9 @@ blockquote {
 
     &__date {
         p {
-            font-size: $line-height-default;
+            font-size: $font-size-default;
             font-style: italic;
+            color: $color-date;
         }
     }
 
@@ -187,6 +188,7 @@ blockquote {
 
         ol, ul {
             li {
+                line-height: $line-height-main;
                 padding: 5px;
                 @media screen and (max-width: $br) {
                     padding: 10px 0;
@@ -214,7 +216,7 @@ blockquote {
         }
 
         .highlight {
-            margin: 5px;
+            margin: 0 5px 25px 5px;
             padding: 10px;
             line-height: $line-height-main;
             border-style: solid;
