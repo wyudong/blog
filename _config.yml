@@ -1,7 +1,7 @@
 # Site settings
 name: wyudong
 description: wyudong's site
-permalink: /:title
+permalink: /blog/:title
 
 # Sass
 sass:
