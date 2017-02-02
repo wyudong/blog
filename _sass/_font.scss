@@ -8,3 +8,14 @@
     font-weight: 400;
     font-style: normal;
 }
+
+@font-face{
+    font-family: 'Fira Code';
+    src: url('/assets/font/FiraCode-Bold.eot');
+    src: url('/assets/font/FiraCode-Bold.eot') format('embedded-opentype'),
+         url('/assets/font/FiraCode-Bold.woff2') format('woff2'),
+         url('/assets/font/FiraCode-Bold.woff') format('woff'),
+         url('/assets/font/FiraCode-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
