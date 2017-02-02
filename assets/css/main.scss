@@ -83,6 +83,10 @@ blockquote {
 .blog {
     padding-bottom: 30px;
 
+    &__date {
+        color: $color-date;
+    }
+
     &__title {
         @include heading($font-size-h1, 700, 30px, 20px);
     }
