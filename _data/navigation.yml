@@ -1,5 +1,8 @@
 - title: blog
   url: /blog
 
+- title: playlist
+  url: /playlist
+  
 - title: about
   url: /about
