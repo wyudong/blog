@@ -83,8 +83,13 @@ blockquote {
 .blog {
     padding-bottom: 30px;
 
+    &__title {
+        @include heading($font-size-h1, 700, 30px, 20px);
+    }
+
     ul li {
         margin-bottom: 20px;
+        padding-left: 0;
         font-size: $font-size-h5;
         line-height: $line-height-main;
     }
