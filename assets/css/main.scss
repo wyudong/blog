@@ -83,6 +83,10 @@ blockquote {
 .blog {
     padding-bottom: 30px;
 
+    &__back {
+        @include link-style($color-back, $color-back, $color-back-hover, $color-back);
+    }
+
     &__date {
         color: $color-date;
     }
@@ -247,6 +251,10 @@ blockquote {
 }
 
 .about {
+    &__back {
+        @include link-style($color-back, $color-back, $color-back-hover, $color-back);
+    }
+
     &__title {
         @include heading($font-size-h1, 700, 30px, 20px);
     }
