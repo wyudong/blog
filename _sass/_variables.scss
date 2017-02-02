@@ -30,7 +30,7 @@ $color-code: $base07;
 $color-code-background: $base02;
 
 $font-size-default: 1em;
-$font-size-code: 1.1em;
+$font-size-code: 1em;
 $font-size-main: 1.2em;
 $font-size-h6: 1.2em;
 $font-size-h5: 1.4em;
@@ -42,6 +42,8 @@ $font-size-header: 3.5em;
 
 $line-height-default: 1.4em;
 $line-height-main: 1.6em;
+$line-height-list: $line-height-default;
 
 // Breakpoint
-$br: 640px;
+$max-width: 600px;
+$br: $max-width;
