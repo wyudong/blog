@@ -1,6 +1,6 @@
 # This is my blog
 
-Things like posts, projects, music will be recorded in this repository. The Jekyll theme is inspired from [Micah Cowell's blog](https://github.com/getmicah/blog).
+Things like posts, projects, music will be recorded in this repository. The Jekyll theme is inspired from [Micah Cowell's blog](http://blog.micahcowell.com/).
 
 ## License
 
