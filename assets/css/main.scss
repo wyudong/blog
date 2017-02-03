@@ -92,11 +92,11 @@ blockquote {
     }
 
     &__title {
-        @include heading($font-size-h1, 700, 30px, 20px);
+        @include heading($font-size-h1, 700, 30px, 25px);
     }
 
     ul li {
-        margin-bottom: 20px;
+        margin-bottom: 5px;
         padding-left: 0;
         font-size: $font-size-h5;
         line-height: $line-height-main;
@@ -138,7 +138,7 @@ blockquote {
         margin-top: 20px;
 
         h1 {
-            @include heading($font-size-h1, 700, 30px, 20px);
+            @include heading($font-size-h1, 700, 30px, 25px);
         }
 
         h2 {
@@ -256,7 +256,7 @@ blockquote {
     }
 
     &__title {
-        @include heading($font-size-h1, 700, 30px, 20px);
+        @include heading($font-size-h1, 700, 30px, 25px);
     }
 
     &__content {
